@@ -1,0 +1,17 @@
+.content{
+    margin-top: 5%;
+    margin-left: 30%;
+    margin-right: 30%;
+    margin-bottom: 5%;
+    padding: 5% 15% 5% 10%;
+    background-color: aquamarine;
+    font-size: large;
+    text-align: left;
+}
+#submit {
+    padding: 2% 10% 2% 10%;
+    border: 3px;
+    text-align: center;
+    background-color: blue;
+    color: white;
+}

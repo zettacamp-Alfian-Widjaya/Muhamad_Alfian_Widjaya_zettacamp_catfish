@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>form</title>
+    <link rel="stylesheet" href="form isian.css">
+</head>
+<body>
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="tabel.html"></a>
+      </nav>
+  <div class="content">
+      <h1>Form Isian</h1>
+      <form action="">
+          <label> Nama Lengkap<br>
+              <input type="text" id="nama">
+          </label><br>
+          <label> NIK KTP/ Passpor <br>
+            <input type="number">
+          </label><br>
+          <label> Umur <br>
+              <input type="number">
+          </label><br>
+          <p>Jenis Kelamin</p>
+          <input type="radio">
+          <label>Laki-laki</label><br>
+          <input type="radio">
+          <label>Perempuan</label><br>
+          <p>Tempat Tinggal</p>
+          <select>
+              <option>Jakarta</option>
+              <option>Depok</option>
+              <option>Bogor</option>
+              <option>Bekasi</option>
+          </select><br>
+          <input type="file" value="upload gambar"/>
+          <label>Keahlian</label><br>
+          <input type="checkbox">Photoshop <br>
+          <input type="checkbox">HTML <br>
+          <input type="checkbox">CSS <br>
+          <input type="checkbox">Java Skrip <br>
+          <input type="checkbox"> PHP <br>
+          <p>Kenapa kamu adalah orang yang tepat?</p><br>
+          <textarea name="" id="" cols="30" rows="10"></textarea><br>
+          <input type="submit" value="Daftar" id="submit" onclick="simpan()"/>
+      </form>
+  </div> 
+<script>
+
+    function simpan() {
+        let varnama = document.getElementById("nama").value;
+        alert("Pendaftaran berhasil! Selamat datang  "+ varnama);
+    }
+
+</script>
+</body>
+</html>
